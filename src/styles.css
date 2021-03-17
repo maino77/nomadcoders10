@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+input {
+  height: auto; /* 높이 초기화 */
+  line-height: normal; /* line-height 초기화 */
+  padding: 0.8em 0.5em; /* 여백 설정 */
+}
+.no {
+  display: none;
+}
+
+#edit {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#range {
+  background: transparent;
+  width: 30%;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+
+  padding: 3px 10px;
+  padding-bottom: 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

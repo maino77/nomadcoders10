@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <!-- 제목 -->
+    <h1>Random Number Game</h1>
+    <div>
+      <!-- 범위 설정 -->
+      <div id="edit">
+        <span>Genereate a number between 0 and 0</span>
+      </div>
+      <!-- range 위치 -->
+      <input
+        id="range"
+        type="range"
+        value="0"
+        min="0"
+        max="200"
+        step="1"
+        list="tick"
+      />
+      <datalist id="tick">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
+    </div>
+    <form>
+      <h3>
+        Guess the number:
+        <!-- 숫자입력 -->
+        <input id="choice" type="number" size="30" placeholder="Number" />
+        <!-- 버튼 -->
+        <input type="submit" id="play" value="Play!" />
+        <!-- 내 예상 숫자 출력과 랜덤 숫자, 승패 -->
+      </h3>
+    </form>
+    <div>
+      <p id="select" class="no"></p>
+      <p id="result" class="no"></p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
