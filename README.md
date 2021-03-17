@@ -9,9 +9,8 @@
 * 큰 함수 3개로 나눠봄.
 
 1. 범위 표현
-Generate a number between 0 and `${}` -> range로 설정한 범위 반영
-참고 페이지
-https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput
+Generate a number between 0 and `${}` -> range로 설정한 범위 반영<br>
+[참고 페이지](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/oninput)
 
 2. input text 입력시 입력한 숫자 localstorage에 저장
 완료 - 희동님 아이디어 참고 (addEventListener이용하기)
