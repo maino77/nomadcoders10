@@ -48,8 +48,9 @@ function hidden(event) {
   const myNum = localStorage.getItem(choiceNum);
   // 문자열을 숫자로 변환 parseInt(바꿀 것, 진수(우리는 십진수))
   const myNumValue = parseInt(myNum, 10);
-  //범위 내 숫자 랜덤 생성
+  //범위 값(최댓값) 가져온다.
   const rangeNum = range.value;
+  //범위 내 숫자 랜덤 생성
   const number = Math.floor(Math.random() * rangeNum + 1);
   select.textContent = `You chose: ${myNum}, the machine chose: ${number}`;
   //오류 발생. class를 지워도 결과가 안나옴. 따라서 id를 이용해 dispaly: block으로 덮어씌움.
